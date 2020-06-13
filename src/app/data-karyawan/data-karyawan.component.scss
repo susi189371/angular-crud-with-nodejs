@@ -1,0 +1,25 @@
+.icon-grey {
+    color: grey;
+}
+
+.icon-blue {
+    color: dodgerblue;
+}
+
+::ng-deep .ngx-pagination {
+    margin-left: 0;
+    margin-bottom: 1rem;
+    float: right;
+}
+
+.text-logo {
+    font-family: monospace;
+    color: #6c6e71;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+td {
+    text-transform: capitalize;
+}

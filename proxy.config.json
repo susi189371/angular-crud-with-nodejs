@@ -1,0 +1,14 @@
+
+
+{
+    "/api/traval": {
+        "target": "http://localhost:3000/data_karyawan",
+        "secure": false,
+        "logLevel": "debug",
+        "pathRewrite": {
+            "^/api/traval": ""
+        },
+        "changeOrigin": true
+    }
+
+}
